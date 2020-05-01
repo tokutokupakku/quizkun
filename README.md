@@ -26,5 +26,3 @@
 - belongs_to :question
 
 ---
-<br>
-<br>
