@@ -1,5 +1,6 @@
 html {
   background: #E5E5E5;
+  font-family: YuGothic;
   }
 
 .header{
@@ -7,7 +8,11 @@ html {
   background-color: #8F8F8F;
 }
  .title{
-    font-family: YuGothic;
+    position: absolute;
+    width: 200px;
+    height: 42px;
+    left: 30px;
+    top: 9px;
     font-style: normal;
     font-weight: bold;
     display: flex;
@@ -24,34 +29,24 @@ html {
  .contents{
 }
  .content_post{
-   position: absolute;
-   width: 280px;
-   height: 230px;
-   left: 46px;
-   top: 90px;
-   font-family: YuGothic;
    font-style: normal;
    font-weight: bold;
+   width: 76%;
+   margin: 8% 12%;
+   background-color: white;
+   padding: 2%;
+   height: 230px;
   }
 
  .question{
-   position: absolute;
-   left: 3.24%;
-   right: 2.52%;
-   top: 3.48%;
-   bottom: 26.09%;
-   font-size: 18px;
+   font-size: 17px;
    line-height: 30px;
    letter-spacing: 0.05em;
    color: #000000;
+   height: 160px;
   }
 
  .answer_button{
-   position: absolute;
-   left: 66.91%;
-   right: 2.52%;
-   top: 78.26%;
-   bottom: 2.17%;
    background: #8F8F8F;
    border-radius: 18px;
    text-align: center;
@@ -59,8 +54,8 @@ html {
    letter-spacing: 0.2em;
    color: #FFFFFF;
    text-decoration: none;
-   font-size: 18px;
+   font-size: 17px;
    line-height: 30px;
+   padding: 7px 20px;
+   margin: 15px 0 0 178px;
   }
-
-

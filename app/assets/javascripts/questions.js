@@ -1,5 +1,5 @@
 $(function() {
   $('answer_button').click(function() {
-    $(this).next().text('クリックありがとうございます！');
+    $(this).next().text('クリクありがとうございます！');
   });
 })
