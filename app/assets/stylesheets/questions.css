@@ -1,0 +1,66 @@
+html {
+  background: #E5E5E5;
+  }
+
+.header{
+  height: 60px;
+  background-color: #8F8F8F;
+}
+ .title{
+    font-family: YuGothic;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+ .highlight{
+   font-size: 24px;
+   line-height: 30px;
+   color: #DBDF2A;
+  }
+
+ .contents{
+}
+ .content_post{
+   position: absolute;
+   width: 280px;
+   height: 230px;
+   left: 46px;
+   top: 90px;
+   font-family: YuGothic;
+   font-style: normal;
+   font-weight: bold;
+  }
+
+ .question{
+   position: absolute;
+   left: 3.24%;
+   right: 2.52%;
+   top: 3.48%;
+   bottom: 26.09%;
+   font-size: 18px;
+   line-height: 30px;
+   letter-spacing: 0.05em;
+   color: #000000;
+  }
+
+ .answer_button{
+   position: absolute;
+   left: 66.91%;
+   right: 2.52%;
+   top: 78.26%;
+   bottom: 2.17%;
+   background: #8F8F8F;
+   border-radius: 18px;
+   text-align: center;
+   display: flex;
+   letter-spacing: 0.2em;
+   color: #FFFFFF;
+   text-decoration: none;
+   font-size: 18px;
+   line-height: 30px;
+  }
+
+
