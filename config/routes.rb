@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root 'questions#index'
-  resources :questions, except: :show do
-    resources :answers, except: [:index]
-  end
+  resources :questions, only: :index
 end

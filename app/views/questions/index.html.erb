@@ -1,10 +1,12 @@
 <div class ="contents">
+  <% @questions.each do |question| %>
   <div class="content_post">
     <div class="question">
-    パンはパンでも食べられないパンはぱ〜んだ？
+    <%= simple_format(question.text) %>
     </div>
     <button class=answer_button>
       答え
     </button>
   </div>
+  <% end %>
 </div>
