@@ -4,9 +4,21 @@
     <div class="question">
     <%= simple_format(question.text) %>
     </div>
-    <button class=answer_button>
+    <button id="<%= question.id %>" class="answer_button">
       答え
     </button>
   </div>
+  
+  
+  <div id="ans_<%= question.id %>" class="content_answer">
+    <div class="ans_word">
+      <%= question.answer.ans_word %>
+    </div>
+    <div class="explanation">
+      <%= question.answer.explanation %>
+    </div>
+  </div>
+    
   <% end %>
+  
 </div>
