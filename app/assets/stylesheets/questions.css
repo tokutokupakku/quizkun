@@ -26,8 +26,6 @@ html {
    color: #DBDF2A;
   }
 
- .contents{
-}
  .content_post{
    font-style: normal;
    font-weight: bold;
@@ -58,4 +56,35 @@ html {
    line-height: 30px;
    padding: 7px 20px;
    margin: 15px 0 0 178px;
+  }
+
+  .content_answer{
+    width: 76%;
+    height: 120px;
+    border-radius: 23px;
+    margin: 8% 12%;
+    background-color: white;
+    padding: 5%;
+    font-style: normal;
+    letter-spacing: 0.2em;
+  }
+
+  .content_answer.js-close{
+    display: none;
+  }
+
+  .content_answer.js-open{
+    display: block;
+  }
+
+  .ans_word{
+    height: 43px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+  }
+
+  .explanation{
+    height: 37px;
+    line-height: 30px;
   }

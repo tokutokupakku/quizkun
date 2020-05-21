@@ -20,10 +20,14 @@ $(function() {
       .done(function(data) {
         let html = buildHTML(data)
         let ans_element = $(`#ans_${id}`)
-        console.log($(`#ans_${id} .ans_word`).size())
+        // console.log($(`#ans_${id} .ans_word`).size())
         if($(`#ans_${id} .ans_word`).size( ) === 0){
+          ans_element.removeClass('js-close');
+          ans_element.addClass('js-open');
           ans_element.append(html);
         } else {
+          ans_element.removeClass('js-open');
+          ans_element.addClass('js-close');
           ans_element.empty();
         }
       })
