@@ -5,5 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Question.create(text: 'パンはパンでもたべられないパンはぱ〜んだ？')
-Answer.create(ans_word: 'パンダ', explanation: 'パンだから')
+Question.create!(
+  text: 'パンはパンでもたべられないパンはぱ〜んだ？'
+)
+
+Answer.create!(
+  ans_word: 'パンダ', explanation: 'パンだから'
+)
